@@ -83,7 +83,10 @@ public class MaxNonNegativeSubArray {
 		}
 		return maxSubArray;
 	}
-
+	static int m() {
+		int x = 1;
+		return x++;
+	}
 	public static void main(String[] args) {
 		ArrayList<Integer> m1 = new ArrayList<Integer>();
 		m1.add(-5);
@@ -96,7 +99,15 @@ public class MaxNonNegativeSubArray {
 		m1.add(4);
 		m1.add(9);
 		m1.add(1);
-		m1.add(1);	
+		m1.add(1);
+		m1.add(7);
+		m1.add(4);
+		m1.add(3);
+		m1.add(19);
+		
+		
+		
+		
 		System.out.println("arr: " + maxset(m1));
 	}
 
