@@ -47,6 +47,10 @@ public class RepeatedNumber {
 		a1.add(2);
 		a1.add(1);
 		a1.add(1);
+		a1.add(4);
+		a1.add(2);
+		a1.add(1);
+		a1.add(1);
 		System.out.println("repeated number  "+repeatedNumber(a1));
 	}
 
