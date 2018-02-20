@@ -2,6 +2,7 @@
 package com.demo.jit;
 
 import java.util.ArrayList;
+import java.util.List;
 /**
  * 
  * You are given a binary string(i.e. with characters 0 and 1) S consisting of characters S1, S2, …, SN. In a single operation, you can choose two indices L and R such that 1 ≤ L ≤ R ≤ N and flip the characters SL, SL+1, …, SR. By flipping, we mean change character 0 to 1 and vice-versa.
@@ -93,9 +94,34 @@ public class Flip {
 		}
 		return sb;
 	}
+	
+	public static int maxSubArray(final List<Integer> a) {
+
+		int sum = Integer.MIN_VALUE;
+		int currentSum = 0;
+		for (int num : a) {
+			currentSum += num;
+		
+			if (currentSum < 0) {
+				currentSum = 0;
+			}
+			sum = Math.max(currentSum, sum);
+		}
+		return sum;
+	}
 
 	public static void main(String[] args) {
 		String A = "1101";
+		String B = "1101";
+		
+		String C = "1101";
+		
+		String D = "1101";
+		String E = "1101";
+		
+		String F = "1101";
+		
+		String G = "1101";
 		Flip f = new Flip();
 		System.out.println("ans: " + f.flip(A).toString());
 
