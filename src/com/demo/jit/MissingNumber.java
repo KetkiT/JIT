@@ -86,5 +86,18 @@ public class MissingNumber {
 		System.out.println("number found: " + firstMinimumPositiveNumber(arr));
 
 	}
+	
+		class A{
+		class B{
+			class C{
+				class D{
+					
+				}
+			}
+		}
+	}
+	class AA{
+		
+	}	
 
 }
