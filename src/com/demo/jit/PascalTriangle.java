@@ -59,6 +59,9 @@ public class PascalTriangle {
 		System.out.println("Pascal's triangle " + generate(7));
 		System.out.println("Pascal's triangle " + generate(2));
 		System.out.println("Pascal's triangle " + generate(11));
+		System.out.println("Pascal's triangle " + generate(8));
+		System.out.println("Pascal's triangle " + generate(9));
+		System.out.println("Pascal's triangle " + generate(15));
 	}
 
 }
