@@ -112,16 +112,6 @@ public class Flip {
 
 	public static void main(String[] args) {
 		String A = "1101";
-		String B = "1101";
-		
-		String C = "1101";
-		
-		String D = "1101";
-		String E = "1101";
-		
-		String F = "1101";
-		
-		String G = "1101";
 		Flip f = new Flip();
 		System.out.println("ans: " + f.flip(A).toString());
 
